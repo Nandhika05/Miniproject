@@ -1,10 +1,55 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      My Project
-    </title>
-  </head>
-  <body>
-    <h1> My Project </h1>
-  </body>
+<head>
+  <title>Smart Parking System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <h1>SmartParking</h1>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="find-parking.html">Find Parking</a>
+    <a href="features.html">Features</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h2>Smart Parking Booking System</h2>
+  <p>AI-powered solution to find and book parking in busy days</p>
+  <button class="btn" onclick="location.href='find-parking.html'">
+    Find Parking
+  </button>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h3>Total Slots</h3>
+    <p id="total">0</p>
+  </div>
+  <div class="card">
+    <h3>Available</h3>
+    <p id="available">0</p>
+  </div>
+  <div class="card">
+    <h3>Occupied</h3>
+    <p id="occupied">0</p>
+  </div>
+</section>
+
+<script src="js/app.js"></script>
+<div class="dashboard">
+  <h3 id="bookingStatus">No Active Booking</h3>
+</div>
+
+<script>
+  const slot = localStorage.getItem("bookedSlot");
+  if (slot) {
+    document.getElementById("bookingStatus").innerText =
+      "Booked Slot Number: " + slot;
+  }
+</script>
+
+</body>
 </html>
