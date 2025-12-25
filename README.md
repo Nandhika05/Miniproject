@@ -79,9 +79,13 @@ The system follows a client–server architecture where the frontend interacts w
 
 ## Output
 
-![WhatsApp Image 2025-12-17 at 14 05 55 mp home](https://github.com/user-attachments/assets/b1b5de37-d349-4b61-8d0a-c25a19e55d08)
+<img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/06d84049-746e-4a70-9347-f2a1c9502fc2" />
 
-![WhatsApp Image 2025-12-17 at 14 05 54 booking page](https://github.com/user-attachments/assets/6d7ccb49-3f7d-4774-ab59-20e0fa592c7e)
+<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/f61c2d7f-05a0-4183-94bd-12e924dafaa0" />
+
+<img width="1365" height="670" alt="image" src="https://github.com/user-attachments/assets/f28e7e7f-8bf1-4e1d-8d9a-0c249d6dae1f" />
+
+<img width="1365" height="683" alt="image" src="https://github.com/user-attachments/assets/56c68061-2618-40f2-baf3-c98b57cd046d" />
 
 
 Booking Accuracy: High reliability with real-time availability updates
